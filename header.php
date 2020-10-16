@@ -29,6 +29,7 @@
             <li><A HREF="index.php">Home</A></li>
             <li><A HREF="pnrstatus.php">Booking Status</A></li>
             <li><a href="booktkt.php">Book Parking Spot</a></li>
+            <li><a href="location.php">Location</a></li>
             <li><?php  
 				if(isset($_SESSION['user_info'])){
 					echo '<div id="dropdown">'.$_SESSION['user_info'].'<div id="Logout" style="display:none">Logout</div>';
